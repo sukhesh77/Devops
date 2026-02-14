@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fffaf0;
+}
+
+header {
+    background-color: #ff6f00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    color: #ff6f00;
+    border: none;
+    cursor: pointer;
+}
