@@ -1,0 +1,6 @@
+apiVersion: v2
+name: school-app
+description: Helm chart for school static web app
+type: application
+version: 0.1.0
+appVersion: "1.0"

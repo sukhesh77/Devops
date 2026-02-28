@@ -1,0 +1,18 @@
+namespace: school-ns
+
+deployment:
+  name: school-deployment
+  app: school-app
+  replicas: 2
+
+  image:
+    repository: sukhesh77/school-static-web-app
+    tag: v1
+
+  containerPort: 80
+
+service:
+  name: school-service
+  type: LoadBalancer
+  port: 80
+  targetPort: 80
