@@ -1,6 +1,6 @@
 namespace: ecommerce-ns 
 
-replicas: 5
+replicas: 1
 
 appDeployment:
  labels:
@@ -9,7 +9,7 @@ appDeployment:
 
 image:
  repository: sukhesh77/ecommerce-app
- tag: v1.0.0
+ tag: latest
 port: 80
 
 appService:
