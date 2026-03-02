@@ -5,11 +5,11 @@ deployment:
   app: school-app
   replicas: 2
 
-  image:
-    repository: sukhesh77/school-static-web-app
-    tag: v1
+image:
+  repository: sukhesh77/school-static-web-app
+  tag: v1
 
-  containerPort: 80
+containerPort: 80
 
 service:
   name: school-service
