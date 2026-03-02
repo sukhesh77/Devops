@@ -13,6 +13,6 @@ image:
 port: 80
 
 Service:
- app: ecommerce
+ app: ecommerce-service
  port: 80
  type: LoadBalancer
