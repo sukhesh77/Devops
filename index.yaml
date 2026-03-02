@@ -3,6 +3,16 @@ entries:
   ecommerce-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-03-02T09:35:23.995164307Z"
+    description: A Helm chart for Kubernetes
+    digest: 6bcdbfeab28d7cbbdd28b56f61618e60b977ee834bf8d212bf1631c3b1ccfef1
+    name: ecommerce-app
+    type: application
+    urls:
+    - https://github.com/sukhesh77/E-commerce-app/releases/download/ecommerce-app-0.3.0/ecommerce-app-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-03-02T05:56:26.409893575Z"
     description: A Helm chart for Kubernetes
     digest: 9af70d4fa9055d9fc18dd95ed075e0403ac51497d2f6f53ec3efd814b4c75c08
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://sukhesh77.github.io/E-commerce-app/ecommerce-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-02T05:56:26.408708501Z"
+generated: "2026-03-02T09:35:23.995172794Z"
