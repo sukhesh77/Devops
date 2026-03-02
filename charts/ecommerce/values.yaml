@@ -1,18 +1,18 @@
-namespace: ecommerce-ns 
+namespace: ecommerce-ns
 
-replicas: 2
+replicas: 5
 
 appDeployment:
- labels:
-  app: ecommerce
- name: ecommerce-container
+  labels:
+    app: ecommerce
+  name: ecommerce-container
 
 image:
- repository: sukhesh77/ecommerce-app
- tag: v1.0.0
-port: 80
+  repository: sukhesh77/ecommerce-app
+  tag: v1.0.0
+  port: 80
 
-Service:
- app: ecommerce-service
- port: 80
- type: LoadBalancer
+service:
+  name: ecommerce-service
+  port: 80
+  type: LoadBalancer
