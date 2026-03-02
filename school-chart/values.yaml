@@ -1,18 +1,18 @@
-namespace: school-ns
+namespace: ecommerce-ns 
 
-deployment:
-  name: school-deployment
-  app: school-app
-  replicas: 2
+replicas: 5
+
+appDeployment:
+ labels:
+  app: ecommerce
+ name: ecommerce-container
 
 image:
-  repository: sukhesh77/school-static-web-app
-  tag: v1
+ repository: sukhesh77/ecommerce-app
+ tag: v1.0.0
+port: 80
 
-containerPort: 80
-
-service:
-  name: school-service
-  type: LoadBalancer
-  port: 80
-  targetPort: 80
+appService:
+ app: ecommerce
+ port: 80
+ type: LoadBalancer
